@@ -8,12 +8,12 @@ print("----------RightTriangleMachine----------\n")
 print("This program calculates if a triangle is a right triangle.")
 
 #These are the side inputs.
-a = float(input("Enter in a value for side 1: "))
-b = float(input("Enter in a value for side 2: "))
-c = float(input("Enter in a value for side 3: "))
+side_1 = float(input("Enter in a value for side 1: "))
+side_2 = float(input("Enter in a value for side 2: "))
+side_3 = float(input("Enter in a value for side 3: "))
 
 #checks for the sides.
-if a**2 + b**2 == c**2 or c**2 + b**2 == a**2 or c**2 + a**2 == b**2:
+if side_1**2 + side_2**2 == side_3**2 or side_3**2 + side_2**2 == side_1**2 or side_3**2 + side_1**2 == side_2**2:
   print("It is a right triangle.")
 else:
   print("It is not a right triangle.")
